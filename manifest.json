@@ -1,0 +1,13 @@
+{
+    "name": "Spaced Repetition",
+    "description": "A simple extension to help you practice spaced repetition",
+    "version": "1.0.0.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab"
+        ]
+  }
