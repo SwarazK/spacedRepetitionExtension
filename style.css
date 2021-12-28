@@ -1,0 +1,33 @@
+body{
+    min-width:450px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    width:450px;            /* As IE6 ignores !important it will set width as 1000px; */
+    align-items: center;
+    justify-content: center;
+ }
+
+ div{
+     margin: 30px 0;
+ }
+ 
+ #urlDiv{
+    margin: 0px 0;
+ }
+
+ #currentUrl{
+     text-align: center;
+     width: 100%;
+     float: left;
+ }
+
+ #firstBtnGroup{
+     margin: 0 110px;
+ }
+
+ #urlFieldDiv{
+    margin: 0 60px;
+ }
+
+ #urlBtnDiv{
+    margin: 0 150px;
+ }
